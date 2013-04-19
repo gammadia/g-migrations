@@ -1,0 +1,20 @@
+{
+  "name": "g-migration",
+  "version": "0.0.1",
+  "description": "Gestion des migrations des documents de la base.",
+  "main": "index.js",
+  "repository": {
+    "type":         "svn",
+    "url":          "svn+ssh://www.gammadia-svn.net/var/svn/gammadia/node_modules/g-migration/trunk/"
+  },
+  "publishConfig": {
+    "registry":     "http://npm:uOe5y3Vw1q2n6n43XD41734P854Ow5@npm.gammadia.ch:5984/registry/_design/app/_rewrite/"
+  },
+  "engines": {
+    "node":         ">=0.8.0"
+  },
+  "dependencies": {
+    "g-autoloader": "*",
+    "async":        "*"
+  }
+}
