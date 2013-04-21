@@ -1,6 +1,6 @@
 {
-  "name": "g-migration",
-  "version": "0.0.1",
+  "name": "g-migrations",
+  "version": "0.0.2",
   "description": "Gestion des migrations des documents de la base.",
   "main": "index.js",
   "repository": {

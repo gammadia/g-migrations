@@ -217,6 +217,11 @@ module.exports = function (app) {
 
 			loader_migrations.loadFiles(function() {
 				migrations.steps.sort();
+
+				migrations.steps = migrations.steps.filter(function(item) {
+					return item !== undefined;
+				});
+
 				migrations.last = migrations.steps[migrations.steps.length-1].id || null;
 
 				return callback();
