@@ -10,7 +10,7 @@ module.exports = function (app) {
 		 *
 		 *  @type {Object}
 		 */
-		db = app.database.use(app.config.get('models:customer:db')),
+		db = app.database.use(app.config.get('migrations:db')),
 
 		/**
 		 *	@property logger Instance du logger spécifique à l'objet migrations

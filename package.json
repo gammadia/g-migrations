@@ -1,11 +1,11 @@
 {
   "name": "g-migrations",
-  "version": "0.0.3",
+  "version": "1.0.1",
   "description": "Gestion des migrations des documents de la base.",
   "main": "index.js",
   "repository": {
-    "type":         "svn",
-    "url":          "svn+ssh://www.gammadia-svn.net/var/svn/gammadia/node_modules/g-migration/trunk/"
+    "type":         "git",
+    "url":          "ssh://git@stash.gammadia.ch:7999/nodmod/g-migrations.git"
   },
   "publishConfig": {
     "registry":     "http://npm:uOe5y3Vw1q2n6n43XD41734P854Ow5@npm.gammadia.ch:5984/registry/_design/app/_rewrite/"
