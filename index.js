@@ -85,7 +85,7 @@ module.exports = function (app) {
 						doc,
 						up_to,
 						callback,
-						modified || new_doc !== null
+						1
 					);
 				});
 			} else {
@@ -133,7 +133,7 @@ module.exports = function (app) {
 							}
 						});
 					},
-					function(err) {
+					function() {
 						treatDocuments(up_to, limit, callback);
 					}
 				);
@@ -188,7 +188,7 @@ module.exports = function (app) {
 		 */
 		doMigrations = function(up_to, callback) {
 			up_to = up_to || null;
-			callback = callback || function() {};
+			callback = callback || function() {return;};
 
 			if (!migrations.loaded) {
 				loadFiles(function() {
