@@ -134,7 +134,7 @@ module.exports = function (app) {
                         });
                     },
                     function () {
-                        treatDocuments(up_to, limit, callback);
+                        return treatDocuments(up_to, limit, callback);
                     }
                 );
             });
@@ -189,7 +189,8 @@ module.exports = function (app) {
                 composants_path: app.path + app.config.get('directories:migrations'),
                 imports: {
                     migrations: migrations,
-                    db: db
+                    db: db,
+                    app: app
                 }
             });
 
