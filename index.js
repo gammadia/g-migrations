@@ -112,7 +112,7 @@ module.exports = function (app) {
                     return callback(new Error('Unable to retrive data: ' + err));
                 }
 
-                if (!result.rows.length) {
+                if (!result.rows || !result.rows.length) {
                     return callback();
                 }
 
