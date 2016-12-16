@@ -1,6 +1,6 @@
 {
   "name": "g-migrations",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Gestion des migrations des documents de la base.",
   "main": "index.js",
   "repository": {
@@ -14,7 +14,7 @@
     "node":         ">=0.8.0"
   },
   "dependencies": {
-    "g-autoloader": "*",
+    "g-autoloader": "git+https://stash.gammadia.ch/scm/nodmod/g-autoloader.git#1.0.0",
     "async":        "*"
   }
 }
