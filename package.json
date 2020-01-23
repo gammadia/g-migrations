@@ -14,6 +14,6 @@
   },
   "dependencies": {
     "async": "^2.6.1",
-    "g-autoloader": "git+https://stash.gammadia.ch/scm/nodmod/g-autoloader.git#feature/mauth"
+    "g-autoloader": "git+https://github.com/gammadia/g-autoloader.git#feature/mauth"
   }
 }
