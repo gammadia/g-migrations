@@ -1,11 +1,11 @@
 {
   "name": "g-migrations",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Gestion des migrations des documents de la base.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "ssh://git@stash.gammadia.ch:7999/nodmod/g-migrations.git"
+    "url": "ssh://git@github.com:tipee-sa/g-migrations.git"
   },
   "license": "UNLICENSED",
   "private": true,
@@ -14,6 +14,6 @@
   },
   "dependencies": {
     "async": "^2.6.1",
-    "g-autoloader": "git+https://github.com/gammadia/g-autoloader.git#feature/mauth"
+    "g-autoloader": "git+https://github.com/tipee-sa/g-autoloader.git#1.1.1"
   }
 }
